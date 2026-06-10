@@ -1,6 +1,6 @@
 from flask import Blueprint
 from flask import jsonify
-import sqlite3
+import json
 import random
 
 quotes_bp = Blueprint(
@@ -11,31 +11,27 @@ quotes_bp = Blueprint(
 @quotes_bp.route("/api/quotes")
 def get_quotes():
 
-    conn = sqlite3.connect("database.db")
-    conn.row_factory = sqlite3.Row
+    with open(
+        "datafiles/quotes.json",
+        "r",
+        encoding="utf-8"
+    ) as file:
 
-    data = conn.execute(
-        "SELECT * FROM quotes"
-    ).fetchall()
+        data = json.load(file)
 
-    conn.close()
-
-    return jsonify(
-        [dict(row) for row in data]
-    )
+    return jsonify(data)
 
 @quotes_bp.route("/api/quotes/random")
 def random_quote():
 
-    conn = sqlite3.connect("database.db")
-    conn.row_factory = sqlite3.Row
+    with open(
+        "datafiles/quotes.json",
+        "r",
+        encoding="utf-8"
+    ) as file:
 
-    data = conn.execute(
-        "SELECT * FROM quotes"
-    ).fetchall()
-
-    conn.close()
+        data = json.load(file)
 
     return jsonify(
-        dict(random.choice(data))
+        random.choice(data)
     )

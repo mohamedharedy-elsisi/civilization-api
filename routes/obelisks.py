@@ -1,8 +1,6 @@
 from flask import Blueprint
 from flask import jsonify
 from flask import request
-
-import sqlite3
 import json
 
 obelisks_bp = Blueprint(
@@ -10,66 +8,39 @@ obelisks_bp = Blueprint(
     __name__
 )
 
-
 @obelisks_bp.route("/api/obelisks")
 def get_obelisks():
 
-    conn = sqlite3.connect(
-        "database.db"
-    )
+    with open(
+        "datafiles/obelisks.json",
+        "r",
+        encoding="utf-8"
+    ) as file:
 
-    conn.row_factory = sqlite3.Row
+        data = json.load(file)
 
-    data = conn.execute(
-        "SELECT * FROM obelisks"
-    ).fetchall()
-
-    conn.close()
-
-    result = []
-
-    for row in data:
-
-        item = dict(row)
-
-        item["images"] = json.loads(
-            item["images"]
-        )
-
-        result.append(item)
-
-    return jsonify(result)
+    return jsonify(data)
 
 
 @obelisks_bp.route("/api/obelisks/<int:id>")
 def get_obelisk(id):
 
-    conn = sqlite3.connect(
-        "database.db"
-    )
+    with open(
+        "datafiles/obelisks.json",
+        "r",
+        encoding="utf-8"
+    ) as file:
 
-    conn.row_factory = sqlite3.Row
+        data = json.load(file)
 
-    row = conn.execute(
-        "SELECT * FROM obelisks WHERE id = ?",
-        (id,)
-    ).fetchone()
+    for item in data:
 
-    conn.close()
+        if item["id"] == id:
+            return jsonify(item)
 
-    if row is None:
-
-        return jsonify({
-            "message": "Obelisk not found"
-        }), 404
-
-    item = dict(row)
-
-    item["images"] = json.loads(
-        item["images"]
-    )
-
-    return jsonify(item)
+    return jsonify({
+        "message": "Obelisk not found"
+    }), 404
 
 
 @obelisks_bp.route("/api/obelisks/search")
@@ -78,43 +49,25 @@ def search_obelisks():
     query = request.args.get(
         "q",
         ""
-    )
+    ).lower()
 
-    conn = sqlite3.connect(
-        "database.db"
-    )
+    with open(
+        "datafiles/obelisks.json",
+        "r",
+        encoding="utf-8"
+    ) as file:
 
-    conn.row_factory = sqlite3.Row
-
-    data = conn.execute("""
-        SELECT *
-        FROM obelisks
-        WHERE
-        name LIKE ?
-        OR arabic_name LIKE ?
-        OR city LIKE ?
-        OR builder LIKE ?
-        OR historical_era LIKE ?
-    """, (
-        f"%{query}%",
-        f"%{query}%",
-        f"%{query}%",
-        f"%{query}%",
-        f"%{query}%"
-    )).fetchall()
-
-    conn.close()
+        data = json.load(file)
 
     result = []
 
-    for row in data:
+    for item in data:
 
-        item = dict(row)
-
-        item["images"] = json.loads(
-            item["images"]
-        )
-
-        result.append(item)
+        if (
+            query in item["name"].lower()
+            or query in item["arabic_name"]
+            or query in item["city"].lower()
+        ):
+            result.append(item)
 
     return jsonify(result)

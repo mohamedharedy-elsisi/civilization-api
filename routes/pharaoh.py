@@ -1,6 +1,5 @@
 from flask import Blueprint
 from flask import jsonify
-import sqlite3
 import json
 
 pharaohs_bp = Blueprint(
@@ -11,25 +10,12 @@ pharaohs_bp = Blueprint(
 @pharaohs_bp.route("/api/pharaohs")
 def get_pharaohs():
 
-    conn = sqlite3.connect("database.db")
-    conn.row_factory = sqlite3.Row
+    with open(
+        "datafiles/pharaohs.json",
+        "r",
+        encoding="utf-8"
+    ) as file:
 
-    data = conn.execute(
-        "SELECT * FROM pharaohs"
-    ).fetchall()
+        data = json.load(file)
 
-    conn.close()
-
-    result = []
-
-    for row in data:
-
-        item = dict(row)
-
-        item["achievements"] = json.loads(
-            item["achievements"]
-        )
-
-        result.append(item)
-
-    return jsonify(result)
+    return jsonify(data)
