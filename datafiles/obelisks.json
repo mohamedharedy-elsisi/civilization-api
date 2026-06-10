@@ -1,0 +1,125 @@
+[
+  {
+    "id": 1,
+    "name": "Hatshepsut Obelisk",
+    "arabic_name": "مسلة حتشبسوت",
+    "city": "Luxor",
+    "location": "Karnak Temple",
+    "historical_era": "18th Dynasty",
+    "builder": "Hatshepsut",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/3/3d/Karnak_Obelisk_of_Hatshepsut.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/8/89/Hatshepsut_Obelisk_Karnak.jpg"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Thutmose I Obelisk",
+    "arabic_name": "مسلة تحتمس الأول",
+    "city": "Luxor",
+    "location": "Karnak Temple",
+    "historical_era": "18th Dynasty",
+    "builder": "Thutmose I",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/e/e4/Thutmose_I_Obelisk_Karnak.jpg"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Luxor Obelisk",
+    "arabic_name": "مسلة الأقصر",
+    "city": "Luxor",
+    "location": "Luxor Temple",
+    "historical_era": "19th Dynasty",
+    "builder": "Ramesses II",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/1/12/Luxor_Temple_Obelisk.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/7/72/Luxor_Obelisk_Egypt.jpg"
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Unfinished Obelisk",
+    "arabic_name": "المسلة الناقصة",
+    "city": "Aswan",
+    "location": "Aswan Quarry",
+    "historical_era": "18th Dynasty",
+    "builder": "Hatshepsut",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/3/37/Unfinished_Obelisk_Aswan.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/6/62/Aswan_Unfinished_Obelisk.jpg"
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Senusret I Obelisk",
+    "arabic_name": "مسلة سنوسرت الأول",
+    "city": "Cairo",
+    "location": "Heliopolis",
+    "historical_era": "12th Dynasty",
+    "builder": "Senusret I",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/8/84/Obelisk_of_Senusret_I.jpg"
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Ramses II Obelisk",
+    "arabic_name": "مسلة رمسيس الثاني",
+    "city": "Cairo",
+    "location": "Tahrir Square",
+    "historical_era": "19th Dynasty",
+    "builder": "Ramesses II",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/6/66/Ramses_II_Obelisk_Tahrir.jpg"
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Gezira Obelisk",
+    "arabic_name": "مسلة الجزيرة",
+    "city": "Cairo",
+    "location": "Gezira Island",
+    "historical_era": "19th Dynasty",
+    "builder": "Ramesses II",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/0/0f/Gezira_Obelisk_Cairo.jpg"
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Seti II Obelisk",
+    "arabic_name": "مسلة سيتي الثاني",
+    "city": "Luxor",
+    "location": "Karnak Temple",
+    "historical_era": "19th Dynasty",
+    "builder": "Seti II",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/2/21/Seti_II_Obelisk_Karnak.jpg"
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Matariya Obelisk",
+    "arabic_name": "مسلة المطرية",
+    "city": "Cairo",
+    "location": "Al-Matariya",
+    "historical_era": "12th Dynasty",
+    "builder": "Senusret I",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/4/43/Matariya_Obelisk.jpg"
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Karnak Fallen Obelisk",
+    "arabic_name": "المسلة الساقطة بالكرنك",
+    "city": "Luxor",
+    "location": "Karnak Temple",
+    "historical_era": "18th Dynasty",
+    "builder": "Hatshepsut",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/b/b3/Fallen_Obelisk_Karnak.jpg"
+    ]
+  }
+]

@@ -1,0 +1,143 @@
+[
+  {
+    "id": 1,
+    "name": "Narmer",
+    "arabic_name": "نعرمر",
+    "dynasty": "1st Dynasty",
+    "reign": "c. 3150 BC",
+    "capital": "Memphis",
+    "description": "Founder of the First Dynasty and traditionally credited with unifying Upper and Lower Egypt.",
+    "achievements": [
+      "Unified Upper and Lower Egypt",
+      "Established the First Dynasty"
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Narmer_Palette.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Djoser",
+    "arabic_name": "زوسر",
+    "dynasty": "3rd Dynasty",
+    "reign": "c. 2670–2650 BC",
+    "capital": "Memphis",
+    "description": "Known for commissioning the Step Pyramid at Saqqara.",
+    "achievements": [
+      "Built the Step Pyramid",
+      "Advanced monumental architecture"
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Djoser.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Khufu",
+    "arabic_name": "خوفو",
+    "dynasty": "4th Dynasty",
+    "reign": "c. 2589–2566 BC",
+    "capital": "Memphis",
+    "description": "Builder of the Great Pyramid of Giza.",
+    "achievements": [
+      "Constructed the Great Pyramid",
+      "Expanded royal building projects"
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Khufu_Statue.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Khafre",
+    "arabic_name": "خفرع",
+    "dynasty": "4th Dynasty",
+    "reign": "c. 2558–2532 BC",
+    "capital": "Memphis",
+    "description": "Builder of the second pyramid at Giza.",
+    "achievements": [
+      "Built Khafre Pyramid",
+      "Associated with the Great Sphinx"
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/9/97/Khafre_statue.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Menkaure",
+    "arabic_name": "منقرع",
+    "dynasty": "4th Dynasty",
+    "reign": "c. 2532–2503 BC",
+    "capital": "Memphis",
+    "description": "Builder of the third pyramid at Giza.",
+    "achievements": [
+      "Built Menkaure Pyramid",
+      "Promoted artistic development"
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/2/28/Menkaure.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Hatshepsut",
+    "arabic_name": "حتشبسوت",
+    "dynasty": "18th Dynasty",
+    "reign": "1479–1458 BC",
+    "capital": "Thebes",
+    "description": "One of the most successful female pharaohs in Egyptian history.",
+    "achievements": [
+      "Expanded trade networks",
+      "Built Deir el-Bahari Temple"
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Hatshepsut.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Thutmose III",
+    "arabic_name": "تحتمس الثالث",
+    "dynasty": "18th Dynasty",
+    "reign": "1479–1425 BC",
+    "capital": "Thebes",
+    "description": "Often called the Napoleon of Ancient Egypt.",
+    "achievements": [
+      "Expanded the Egyptian Empire",
+      "Won numerous military campaigns"
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/1/14/Thutmose_III.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Akhenaten",
+    "arabic_name": "أخناتون",
+    "dynasty": "18th Dynasty",
+    "reign": "1353–1336 BC",
+    "capital": "Akhetaten",
+    "description": "Known for introducing the worship of Aten.",
+    "achievements": [
+      "Religious reforms",
+      "Founded Akhetaten"
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Akhenaten.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Tutankhamun",
+    "arabic_name": "توت عنخ آمون",
+    "dynasty": "18th Dynasty",
+    "reign": "1332–1323 BC",
+    "capital": "Thebes",
+    "description": "The most famous pharaoh due to the discovery of his nearly intact tomb.",
+    "achievements": [
+      "Restored traditional religion",
+      "Left the most famous royal tomb"
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Tutankhamun_Mask.jpg"
+  },
+  {
+    "id": 10,
+    "name": "Ramesses II",
+    "arabic_name": "رمسيس الثاني",
+    "dynasty": "19th Dynasty",
+    "reign": "1279–1213 BC",
+    "capital": "Pi-Ramesses",
+    "description": "One of the greatest and most powerful pharaohs of Ancient Egypt.",
+    "achievements": [
+      "Built Abu Simbel",
+      "Signed the earliest known peace treaty",
+      "Led the Battle of Kadesh"
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Ramesses_II.jpg"
+  }
+]
