@@ -72,6 +72,7 @@ CREATE TABLE IF NOT EXISTS museums(
     description TEXT,
     image TEXT,
     latitude REAL,
+    detail TEXT,
     longitude REAL
 )
 """)
@@ -100,8 +101,9 @@ CREATE TABLE IF NOT EXISTS obelisks(
     arabic_name TEXT,
     city TEXT,
     location TEXT,
-    historical_era TEXT,
+    historical_era TEXT,           
     builder TEXT,
+    detail TEXT,
     images TEXT
 )
 """)
