@@ -7,7 +7,7 @@ model = YOLO(MODEL_PATH)
 
 
 def predict(image_path):
-    results = model(image_path)
+    results = model(image_path, conf=0.05)
 
     if len(results) == 0:
         return None
