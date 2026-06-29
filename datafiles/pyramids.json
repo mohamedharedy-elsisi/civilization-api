@@ -1,0 +1,112 @@
+[
+  {
+    "id": 1,
+    "name": "Great Pyramid of Giza",
+    "arabic_name": "الهرم الأكبر بالجيزة",
+    "location": "Giza Plateau",
+    "city": "Giza",
+    "built_by": "King Khufu",
+    "period": "Fourth Dynasty",
+    "description": "The largest pyramid in Egypt and the only surviving Wonder of the Ancient World.",
+    "image": "https://images.unsplash.com/photo-1539768942893-daf53e448371"
+  },
+  {
+    "id": 2,
+    "name": "Pyramid of Khafre",
+    "arabic_name": "هرم خفرع",
+    "location": "Giza Plateau",
+    "city": "Giza",
+    "built_by": "King Khafre",
+    "period": "Fourth Dynasty",
+    "description": "The second largest pyramid at Giza, famous for the remaining limestone casing at its top.",
+    "image": "https://images.unsplash.com/photo-1548013146-72479768bada"
+  },
+  {
+    "id": 3,
+    "name": "Pyramid of Menkaure",
+    "arabic_name": "هرم منقرع",
+    "location": "Giza Plateau",
+    "city": "Giza",
+    "built_by": "King Menkaure",
+    "period": "Fourth Dynasty",
+    "description": "The smallest of the three main pyramids on the Giza Plateau.",
+    "image": "https://images.unsplash.com/photo-1572252009286-268acec5ca0a"
+  },
+  {
+    "id": 4,
+    "name": "Bent Pyramid",
+    "arabic_name": "الهرم المنحني",
+    "location": "Dahshur",
+    "city": "Giza",
+    "built_by": "King Sneferu",
+    "period": "Fourth Dynasty",
+    "description": "Known for its unique change in angle during construction.",
+    "image": "https://images.unsplash.com/photo-1503177119275-0aa32b3a9368"
+  },
+  {
+    "id": 5,
+    "name": "Red Pyramid",
+    "arabic_name": "الهرم الأحمر",
+    "location": "Dahshur",
+    "city": "Giza",
+    "built_by": "King Sneferu",
+    "period": "Fourth Dynasty",
+    "description": "Considered the first successful true smooth-sided pyramid.",
+    "image": "https://images.unsplash.com/photo-1518684079-3c830dcef090"
+  },
+  {
+    "id": 6,
+    "name": "Dahshur Pyramid",
+    "arabic_name": "هرم دهشور",
+    "location": "Dahshur",
+    "city": "Giza",
+    "built_by": "King Sneferu",
+    "period": "Old Kingdom",
+    "description": "One of the famous pyramids in the Dahshur necropolis representing the development of pyramid architecture.",
+    "image": "https://images.unsplash.com/photo-1524492514790-831f5b0d4f52"
+  },
+  {
+    "id": 7,
+    "name": "Step Pyramid of Djoser",
+    "arabic_name": "هرم زوسر المدرج",
+    "location": "Saqqara",
+    "city": "Giza",
+    "built_by": "King Djoser",
+    "period": "Third Dynasty",
+    "description": "The first large-scale stone structure in history designed by Imhotep.",
+    "image": "https://images.unsplash.com/photo-1526778548025-fa2f459cd5ce"
+  },
+  {
+    "id": 8,
+    "name": "Meidum Pyramid",
+    "arabic_name": "هرم ميدوم",
+    "location": "Meidum",
+    "city": "Beni Suef",
+    "built_by": "King Sneferu",
+    "period": "Fourth Dynasty",
+    "description": "An early transitional pyramid believed to have started as a step pyramid.",
+    "image": "https://images.unsplash.com/photo-1516483638261-f4dbaf036963"
+  },
+  {
+    "id": 9,
+    "name": "Pyramid of Unas",
+    "arabic_name": "هرم أوناس",
+    "location": "Saqqara",
+    "city": "Giza",
+    "built_by": "King Unas",
+    "period": "Fifth Dynasty",
+    "description": "The first pyramid to contain the famous Pyramid Texts.",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee"
+  },
+  {
+    "id": 10,
+    "name": "Black Pyramid",
+    "arabic_name": "الهرم الأسود",
+    "location": "Dahshur",
+    "city": "Giza",
+    "built_by": "Amenemhat III",
+    "period": "Twelfth Dynasty",
+    "description": "A Middle Kingdom pyramid built from mudbrick and named for its dark appearance.",
+    "image": "https://images.unsplash.com/photo-1512453979798-5ea266f8880c"
+  }
+]

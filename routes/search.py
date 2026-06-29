@@ -25,6 +25,7 @@ def search():
         "datafiles/temples.json",
         "datafiles/museums.json",
         "datafiles/obelisks.json",
+        "datafiles/pyramids.json",
 
     ]
 

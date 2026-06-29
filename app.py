@@ -8,6 +8,7 @@ from routes.quote import quotes_bp
 from routes.obelisks import obelisks_bp
 from routes.search import search_bp
 from routes.predict import predict_bp
+from routes.pyramid import pyramids_bp
 
 app = Flask(__name__)
 
@@ -23,6 +24,7 @@ app.register_blueprint(quotes_bp)
 app.register_blueprint(obelisks_bp)
 app.register_blueprint(search_bp)   
 app.register_blueprint(predict_bp)
+app.register_blueprint(pyramids_bp)
 
 # ==========================
 # Home Route

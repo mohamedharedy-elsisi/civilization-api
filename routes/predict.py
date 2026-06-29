@@ -14,7 +14,8 @@ DATA_FILES = [
     "datafiles/statues.json",
     "datafiles/pharaohs.json",
     "datafiles/museums.json",
-    "datafiles/obelisks.json"
+    "datafiles/obelisks.json",
+    "datafiles/pyramids.json",
 ]
 
 
