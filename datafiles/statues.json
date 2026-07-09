@@ -8,7 +8,7 @@
     "material": "Limestone",
     "height_m": 20,
     "description": "The largest monolithic statue in the world, believed to represent Pharaoh Khafre.",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Kheops-Pyramid.jpg"
+    "images": ["https://upload.wikimedia.org/wikipedia/commons/e/e3/Kheops-Pyramid.jpg"]
   },
   {
     "id": 2,
@@ -19,7 +19,7 @@
     "material": "Quartzite",
     "height_m": 18,
     "description": "Two massive statues of Pharaoh Amenhotep III.",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Colossi_of_Memnon.jpg"
+    "images": ["https://upload.wikimedia.org/wikipedia/commons/7/7d/Colossi_of_Memnon.jpg"]
   },
   {
     "id": 3,
@@ -30,7 +30,7 @@
     "material": "Granite",
     "height_m": 11,
     "description": "A colossal statue of Ramesses II discovered at Memphis.",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/0/09/Ramesses_II_statue.jpg"
+    "images": ["https://upload.wikimedia.org/wikipedia/commons/0/09/Ramesses_II_statue.jpg"]
   },
   {
     "id": 4,
@@ -41,7 +41,7 @@
     "material": "Diorite",
     "height_m": 1.68,
     "description": "One of the finest examples of royal sculpture from the Old Kingdom.",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Khafre_statue.jpg"
+    "images": ["https://upload.wikimedia.org/wikipedia/commons/5/5f/Khafre_statue.jpg"]
   },
   {
     "id": 5,
@@ -52,7 +52,7 @@
     "material": "Limestone",
     "height_m": 0.53,
     "description": "A famous statue depicting a seated royal scribe.",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/2/24/Seated_Scribe.jpg"
+    "images": ["https://upload.wikimedia.org/wikipedia/commons/2/24/Seated_Scribe.jpg"]
   },
   {
     "id": 6,
@@ -63,7 +63,7 @@
     "material": "Limestone",
     "height_m": 1.42,
     "description": "The oldest life-sized Egyptian royal statue known.",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/7/73/Djoser.jpg"
+    "images": ["https://upload.wikimedia.org/wikipedia/commons/7/73/Djoser.jpg"]
   },
   {
     "id": 7,
@@ -74,7 +74,7 @@
     "material": "Greywacke",
     "height_m": 0.95,
     "description": "King Menkaure shown with Hathor and a regional deity.",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/4/43/Menkaure_Triad.jpg"
+    "images": ["https://upload.wikimedia.org/wikipedia/commons/4/43/Menkaure_Triad.jpg"]
   },
   {
     "id": 8,
@@ -85,7 +85,7 @@
     "material": "Granite",
     "height_m": 2.3,
     "description": "A royal statue of Egypt's most famous female pharaoh.",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/6/69/Hatshepsut_statue.jpg"
+    "images": ["https://upload.wikimedia.org/wikipedia/commons/6/69/Hatshepsut_statue.jpg"]
   },
   {
     "id": 9,
@@ -96,7 +96,7 @@
     "material": "Quartzite",
     "height_m": 7,
     "description": "A colossal statue representing Amenhotep III.",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Amenhotep_III.jpg"
+    "images": ["https://upload.wikimedia.org/wikipedia/commons/0/0d/Amenhotep_III.jpg"]
   },
   {
     "id": 10,
@@ -107,7 +107,7 @@
     "material": "Wood and Gold",
     "height_m": 1.8,
     "description": "A gilded statue discovered in Tutankhamun's tomb.",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Tutankhamun_statue.jpg"
+    "images": ["https://upload.wikimedia.org/wikipedia/commons/9/9f/Tutankhamun_statue.jpg"]
   },
   {
     "id": 11,
@@ -118,7 +118,7 @@
     "material": "Sandstone",
     "height_m": 2.1,
     "description": "Depicts the revolutionary pharaoh Akhenaten.",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Akhenaten.jpg"
+    "images": ["https://upload.wikimedia.org/wikipedia/commons/f/f8/Akhenaten.jpg"]
   },
   {
     "id": 12,
@@ -129,7 +129,7 @@
     "material": "Limestone",
     "height_m": 0.48,
     "description": "The world-famous bust of Queen Nefertiti.",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Nofretete_Neues_Museum.jpg"
+    "images": ["https://upload.wikimedia.org/wikipedia/commons/0/0f/Nofretete_Neues_Museum.jpg"]
   },
   {
     "id": 13,
@@ -140,7 +140,7 @@
     "material": "Granite",
     "height_m": 1.9,
     "description": "A realistic portrait of a Middle Kingdom ruler.",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Senusret_III.jpg"
+    "images": ["https://upload.wikimedia.org/wikipedia/commons/7/7b/Senusret_III.jpg"]
   },
   {
     "id": 14,
@@ -151,7 +151,7 @@
     "material": "Copper",
     "height_m": 1.2,
     "description": "One of the oldest large metal statues known.",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Pepi_I.jpg"
+    "images": ["https://upload.wikimedia.org/wikipedia/commons/e/e0/Pepi_I.jpg"]
   },
   {
     "id": 15,
@@ -162,6 +162,6 @@
     "material": "Granite",
     "height_m": 2.5,
     "description": "Depicts Osiris, god of the afterlife.",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/5/58/Osiris_statue.jpg"
+    "images": ["https://upload.wikimedia.org/wikipedia/commons/5/58/Osiris_statue.jpg"]
   }
 ]
