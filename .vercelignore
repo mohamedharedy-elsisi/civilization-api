@@ -1,0 +1,12 @@
+
+weights/
+**/weights/
+yolo_env/
+**/yolo_env/
+__pycache__/
+**/__pycache__/
+*.pt
+*.pth
+*.onnx
+runs/
+**/runs/
