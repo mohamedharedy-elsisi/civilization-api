@@ -14,7 +14,7 @@ app = Flask(__name__)
 
 # ==========================
 # Register Blueprints
-# ==========================
+# ==============================
 
 app.register_blueprint(pharaohs_bp)
 app.register_blueprint(statues_bp)
